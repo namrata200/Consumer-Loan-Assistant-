@@ -1,5 +1,6 @@
 /*Consumer Loan Assistant Project
-Name: Vishal Gajanan Patil
+Name: Namrata Laxman Badge
+Email: namrata.badge27@gmail.com
 Created on 29th of July 2021*/
 
 
@@ -20,6 +21,7 @@ public class LoanAssistant extends JFrame {
         JTextField monthsTextField = new JTextField();      //Months TextField
         JLabel paymentLabel = new JLabel();                 //Payment Label
         JTextField paymentTextField = new JTextField();     //Payment TextField
+
         Font myFont = new Font("Arial", Font.PLAIN, 16);    //Creating object of font class
     
         //butons 
@@ -39,6 +41,7 @@ public class LoanAssistant extends JFrame {
         //creating frame
        new LoanAssistant().setVisible(true);
     }
+    
     public boolean validateDecimalNumber(JTextField tf)
     {
         // checks to see if text field contains
